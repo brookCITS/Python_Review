@@ -14,8 +14,8 @@ while True:
 print(names)
 
 filtered_names = []
-for name in _______:
-    if ________:
+for name in names:
+    if name[0].lower() in "aeiou":
         filtered_names.append(name)
 
 print(filtered_names)
